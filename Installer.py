@@ -1,5 +1,5 @@
 import os
-print('''\033[1;36;40mfarhan_wifihack Installer By THBD
+print('''\033[1;36;40mfarhan_wifihack Installer By FARHAN
 Your Device Must Be Rooted
 If Any Question,
 Contact Me On Telegram

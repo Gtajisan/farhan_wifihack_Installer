@@ -1,20 +1,19 @@
-# FARHAN
-### farhan_wifihack_Installer
-### Note:Your Device Must Be Rooted.
-  
-   🤟 Installation:
-
+## [farhan_wifihack](https://github.com/gtajisan/farhan_wifihack) installer for [Termux](https://termux.com/)
+### Setup
 ```
-$ pkg update && pkg upgrade
-
-$ pkg install git python
-
-$ git clone https://github.com/gtajisan/farhan_wifihack_Installer
-
-$ cd farhan_wifihack_Installer
-
-$ python Installer.py
+curl -sSf https://raw.githubusercontent.com/gtajisan/farhan_wifihack_Termux_installer/master/installer.sh | bash
 ```
-# farhan_wifihack Repo
-
-https://github.com/Gtajisan/farhan_wifihack
+### Run
+Disable Wi-Fi in the system settings and run:
+```
+sudo python sudo python farhan.py -i wlan0 -K
+```
+### How to update FARHAN-Shot2
+To check for updates and update, run the following command:
+```
+(cd farhan_wifihack && git pull)
+```
+### FARHAN-SHOT2 /LINK
+```
+ https://github.com/Gtajisan/farhan_wifihack
+ ```
